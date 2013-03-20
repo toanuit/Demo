@@ -1,0 +1,207 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+h1,h3, h2, h4{
+    color: #519554;
+    text-shadow:  rgba(64, 64, 64, 0.5)   5px    4px    9px;
+}
+body{
+   /*background-image: url(bg.gif);
+    background-repeat: repeat-x;*/
+    background-color: #C4F1B6;
+}
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #68b12f;
+    border: 1px solid #509111;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    color: white;
+    padding-bottom: 5px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 29px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+button:hover {
+    opacity:.85;
+    cursor: pointer;
+}
+button:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset;
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: #356b0b;
+    text-shadow: 0 0 10px 5px #356b0b inset;
+    -webkit-text-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-text-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-text-shadow: 0 0 10px 5px #356b0b inset;
+    -o-text-shadow: 0 0 10px 5px #356b0b inset;
+}
+#menu{
+    padding-left: 0px;
+    background: url(../images/menu/menu.jpg);
+    background-repeat: repeat-x;
+    width: 979px;
+    height: 50px;
+    border-radius: 10px;
+    text-overflow: ellipsis;
+    text-shadow:  rgba(64, 64, 64, 0.5)   5px    4px    9px;
+   /* background-position: right -40px;*/
+    box-shadow:  rgba(64, 64, 64, 0.5)   5px    4px    9px;
+    cursor: pointer;
+}
+#menu li{
+    display: block;
+}
+#seach input {
+    width: 150px;
+    height: 20px;
+    font-size: 1em;
+    padding: 0px 5px;
+}
+#menu .table{
+    width: 220px;
+    float: left;
+    text-align: center;
+}
+#menu .table:hover{
+    opacity:.85;
+    cursor: pointer;
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset;
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+    border-radius: 10px;
+    color: white;
+}
+#menu .nav{
+    background: url(../images/menu/nav.jpg);
+    width: 3px;
+    height: 50px;
+    float: left;
+}
+#seach {
+    background: url(../images/menu/menu.jpg);
+    width: 270px;
+    float: right;
+    height: 50px;
+}
+#seach_result{
+    z-index: 2;
+    border: 2px solid white;
+    position: absolute;
+    display: none;
+    width: 230px;
+    background: #66C113;
+    box-shadow:  rgba(64, 64, 64, 0.5)   5px    4px    9px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#seach_result li{
+    width: 250px;
+    right: 40px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 5px 10px;
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    position: relative;
+
+}
+#seach_result #text {
+
+    color: white;
+}
+
+#seach_result #result:first-child{
+    color: white;
+    border-radius: 1px;
+    border-top: 0px;
+}
+#seach_output{
+    top: 200px;
+    width: 100%;
+    height: 100%;
+    left: 45%;
+    position: absolute;
+}
+#seach_hover {
+    position: absolute;
+    display: none;
+    width: 310px;
+    height: 100px;
+    left: 747px;
+    background: white;
+    box-shadow:  rgba(64, 64, 64, 0.5)   5px    4px    9px;
+}
+#header{
+    text-align: center;
+    font-weight: bold;
+    }
+#section{
+    box-shadow: 0 0 5px 2px #356b0b inset;
+    background-color: #fff ;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 9px;
+    border:13px solid #1E8025;
+    font-weight: bold;
+    width: 960px;
+    }
+#footer{
+     text-align: center;
+    }
+#lightbox{
+    border-radius: 29px;
+    border : 3px solid #1E8025;
+    box-shadow: 0 0 5px 2px #356b0b inset;
+    position: absolute;
+    z-index: 11111222;
+    background: -webkit-linear-gradient(top,#fff,#9CDF82);
+    display: none;
+    top: 10px;
+    left: 0px;
+}
+
+#gray{
+    position: absolute;
+    height: 102%;
+    width: 100%;
+    z-index: 11;
+    background-color:rgba(0,0,0,0.8);
+    display: none;
+    text-align:center;
+    left: 0px;
+    top: 0px;
+}
+div.ban_scroll{
+    position: absolute;
+    cursor: pointer;
+}
+
+div#ban_left{
+    width: 70px;
+    height: 170px;
+    font-size: 12px;
+    top: 570px;
+    left: 1px;
+}
