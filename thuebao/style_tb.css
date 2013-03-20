@@ -1,0 +1,85 @@
+/*CSS------------------------------------*/
+
+/* ----------- LIGHT BOX --------------------> */
+ #lightbox{
+    width: 45%;
+    height: 500px;
+ }
+ #lightbox table{
+    border-radius: 20px;
+    background: rgba(50, 165, 21, 0.4);
+    color: #fff;
+    width: 400px;
+    font-size: 24px;
+    text-overflow: ellipsis;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.5)   5px    4px    9px;
+ }
+#lightbox td{
+    width: 212px;
+    border: 0px;
+    padding: 5px;
+ }
+#lightbox input{
+    margin-left: 7px;
+    padding-left: 15px;
+}
+/*--------------------- END LIGHT BOX -------------------------------------- */
+.bang{
+    background-color: #fff;
+    border: solid 1px #488646;
+    width: auto;
+    height: 130px;
+    margin-bottom: 20px;
+    box-shadow:  rgba(64, 64, 64, 0.5)   5px    4px    9px;
+    -webkit-box-shadow:  rgba(64, 64, 64, 0.5)   5px    4px    9px;
+    -moz-box-shadow:  rgba(64, 64, 64, 0.5)   5px    4px    9px;
+    -ms-box-shadow:  rgba(64, 64, 64, 0.5)   5px    4px    9px;
+    -o-box-shadow:  rgba(64, 64, 64, 0.5)   5px    4px    9px;
+}
+.cot{
+    border-right: solid 1px #488646;
+    width: 11.97%;
+    height: 100%;
+    float: left;
+}
+.cot:hover{
+    background: #C4F1B6;
+    cursor: pointer;
+    box-shadow: 0 0 3px 1px #78CA38 inset;
+    -webkit-box-shadow:0 0 5px 3px #78CA38 inset ;
+    -moz-box-shadow: 0 0 10px 5px #78CA38 inset;
+    -ms-box-shadow: 0 0 10px 5px #78CA38 inset;
+    -o-box-shadow: 0 0 10px 5px #78CA38 inset;
+}
+.cot:active{
+    box-shadow: 0 0 3px 1px #356b0b inset;
+    -webkit-box-shadow:0 0 5px 3px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+.cot:last-child{
+    border-right: 0px;
+}
+.dong{
+    width: 100%;
+    height: 20%;
+    border-bottom: solid 1px #488646;
+}
+.dong:last-child{
+    border-bottom: 0px;
+}
+.limit {
+    background: #C4F1B6;
+    text-shadow:  rgba(64, 64, 64, 0.5)   5px    4px    9px;
+    color: #488646;
+    border-right: solid 1px #488646;
+    float: left;
+    width: 30px;
+    height: 100%;
+}
+.limit p{
+    height: 20%;
+}
+
